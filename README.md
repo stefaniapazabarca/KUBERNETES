@@ -10,3 +10,8 @@ o
 ```
 kubectl get nodes -o wide
 ```
+o
+
+```
+kubectl get nodes -o jason
+```
