@@ -29,3 +29,17 @@ o
 ```
 kubectl delete -f ejemplo.yaml
 ```
+## Sin manifest
+```
+kubectl create nginx --image=nginx:latest --port 80 --replicas=1
+```
+o
+
+```
+kubectl get all
+```
+o
+
+```
+kubectl delete deployment nginx
+```
